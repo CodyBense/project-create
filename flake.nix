@@ -22,7 +22,7 @@
           pname = "project-create";
           version = "0.1.0";
           src = ./.;
-          vendorHash = pkgs.lib.fakeHash;
+          vendorHash = "sha256-a8Alui9Ly9gYHclR3d+1EuMfT9eZmonrgnAL28O4Gvs=";
         };
 
         devShells.default = pkgs.mkShell {
